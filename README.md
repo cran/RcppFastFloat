@@ -3,6 +3,9 @@
 
 [![CI](https://github.com/eddelbuettel/rcppfastfloat/workflows/ci/badge.svg)](https://github.com/eddelbuettel/rcppfastfloat/actions?query=workflow%3Aci)
 [![License](https://eddelbuettel.github.io/badges/GPL2+.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+[![CRAN](https://www.r-pkg.org/badges/version/RcppFastFloat)](https://cran.r-project.org/package=RcppFastFloat)
+[![Dependencies](https://tinyverse.netlify.com/badge/RcppFastFloat)](https://cran.r-project.org/package=RcppFastFloat)
+[![Downloads](https://cranlogs.r-pkg.org/badges/RcppFastFloat?color=brightgreen)](https://www.r-pkg.org/pkg/RcppFastFloat)
 [![Last Commit](https://img.shields.io/github/last-commit/eddelbuettel/rcppfastfloat)](https://github.com/eddelbuettel/rcppfastfloat)
 
 ### Motivation
@@ -24,10 +27,11 @@ library(RcppFastFloat)
 exampleParse()
 ```
 
-with default arguments or supply some.  We also include a [timing comparison in file
-[benchmark/comparison.R](inst/benchmark/comparison.R) you can run just calling it from `Rscript`. On our
-machine `fast_float` comes out as just over 3 times as fast as the next best alternative (and this
-counts the function calls and all, so pure parsing speed is still a little bettter).
+with default arguments---or supply some arguments.  We also include a simple timing comparison in
+the file [benchmark/comparison.R](inst/benchmark/comparison.R) which you can run just call via
+`Rscript` or [`r`](https://github.com/eddelbuettel/littler). On our machine, `fast_float` comes out
+as just over 3 times as fast as the next best alternative (and this counts the function calls and
+all, so pure parsing speed is still a little bettter).
 
 ```r
 > source("comparison.R")
@@ -63,7 +67,9 @@ an issue ticket.  See the file
 
 ### Author
 
-For the R package, [Dirk Eddelbuettel](https://github.com/eddelbuettel).
+For the R package, [Dirk Eddelbuettel](https://github.com/eddelbuettel) and [Brendan
+Knapp](https://github.com/knapply).
+
 
 For everything pertaining to `fast_float`, [Daniel Lemire](https://lemire.me/en/) (and
 [contributors](https://github.com/fastfloat/fast_float/graphs/contributors)).

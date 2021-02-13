@@ -2,10 +2,10 @@ Package: RcppFastFloat
 Type: Package
 Title: 'Rcpp' Bindings for the 'fast_float' Header-Only Library for
         Number Parsing
-Version: 0.0.1
-Date: 2021-01-31
-Authors@R: c(person("Dirk", "Eddelbuettel", email = "edd@debian.org",
- role = c("aut", "cph", "cre")), person("Daniel", "Lemire", role = c("aut", "cph")))
+Version: 0.0.2
+Date: 2021-02-13
+Author: Dirk Eddelbuettel, Brendan Knapp
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
 Description: Converting ascii text into (floating-point) numeric values is a
  very common problem. The 'fast_float' header-only C++ library by Daniel Lemire
  does it very well and very fast at up to or over to 1 gigabyte per second as
@@ -21,9 +21,6 @@ BugReports: https://github.com/eddelbuettel/rcppfastfloat/issues
 RoxygenNote: 6.0.1
 Encoding: UTF-8
 NeedsCompilation: yes
-Packaged: 2021-01-31 15:30:29 UTC; edd
-Author: Dirk Eddelbuettel [aut, cph, cre],
-  Daniel Lemire [aut, cph]
-Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Packaged: 2021-02-13 21:58:31 UTC; edd
 Repository: CRAN
-Date/Publication: 2021-02-05 09:50:03 UTC
+Date/Publication: 2021-02-13 22:20:02 UTC
